@@ -1,0 +1,63 @@
+{
+    "title": "Hello I'm Sara Rekab",
+    "subtitle": "Full Stack Dev | Open Sourse Enthsiat | Mechanic Engineer",
+    "links": {
+        "github": "https://github.com/sararekab",
+        "linkedin": "https://www.linkedin.com/in/srekabtalaei/"
+
+    },
+    "sections": [{
+            "title": "About",
+            "items": [{
+                "type": "p",
+                "content": "When my dev senses sara rekabatalaei joon"
+            }]
+        },
+
+        {
+            "title": "Skills",
+            "items": [{
+                "type": "card",
+                "content": {
+                    "image": "/url",
+                    "title": "React"
+
+                }
+            }]
+        },
+        {
+            "title": "Skills",
+            "items": [{
+                "type": "card",
+                "content": {
+                    "image": "/url",
+                    "title": "Javascript"
+
+                }
+            }]
+        },
+        {
+            "title": "Skills",
+            "items": [{
+                "type": "card",
+                "content": {
+                    "image": "/url",
+                    "title": "HTML"
+
+                }
+            }]
+        },
+        {
+            "title": "Skills",
+            "items": [{
+                "type": "card",
+                "content": {
+                    "image": "/url",
+                    "title": "CSS"
+
+                }
+            }]
+        }
+
+    ]
+}

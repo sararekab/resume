@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import { Component} from 'react';
+import data from './data.json';
+// import { SocialIcon } from 'react-social-icons';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class  App extends Component {
+  render() {
+    console.log(data);
+    return (
+      <div className="App">
+      <div className="navigation"/>
+      <div className="fullpage">
+        <h1 className="title">
+        {data.title} 
+        </h1>
+      </div>
+      <div>
+          <h2>
+            {data.subtitle}
+          </h2>
+      </div>
+
+      <div>
+      {
+        // <SocialIcon url="https://twitter.com/jaketrent" />
+        // ........................................
+        // Object.keys(data.links).map(key => {
+        //   return(
+        //     <SocialIcon url= {data.links[key]} />
+        //   )
+        // })
+      }
+      </div>
+      
+      <div className="fullpage"/>
+      <div className="fullpage"/>
+      </div>
+    );
+  }
+
 }
 
 export default App;
