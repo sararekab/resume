@@ -3,7 +3,6 @@ import { Component} from 'react';
 import data from './data.json';
 // import { SocialIcon } from 'react-social-icons';
 
-
 class  App extends Component {
   render() {
     console.log(data);
@@ -32,9 +31,16 @@ class  App extends Component {
         // })
       }
       </div>
+      <div className="fullpage">
+        <h3>
+          {data.sections[0].title}
+        </h3>
+        <p>
+        {data.sections[0].items[0].content}
+        </p>
+      </div>
       
-      <div className="fullpage"/>
-      <div className="fullpage"/>
+           <div className="fullpage"/>
       </div>
     );
   }
