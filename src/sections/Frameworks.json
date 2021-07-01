@@ -1,0 +1,48 @@
+{
+  "title": "Frameworks",
+  "backgroundcolor1": "#a70404",
+  "backgroundcolor2": "#00000000",
+  "items": [
+    {
+      "type": "card",
+      "content": {
+        "image": "images/frameworks/Laravel.png",
+        "title": "Laravel",
+        "score":60
+      }
+    },
+    {
+      "type": "card",
+      "content": {
+        "image": "images/frameworks/React.png",
+        "title": "React",
+        "score":60
+      }
+    },
+    {
+      "type": "card",
+      "content": {
+        "image": "images/frameworks/Angular.png",
+        "title": "Angular",
+        "score":10
+      }
+    },
+    {
+      "type": "card",
+      "content": {
+        "image": "images/frameworks/JQuery.png",
+        "title": "JQuery",
+        "score":85
+      }
+    },
+    {
+      "type": "card",
+      "content": {
+        "image": "images/frameworks/Bootstrap.png",
+        "title": "Bootstrap",
+        "score":75
+      }
+    }
+     
+  ]
+}

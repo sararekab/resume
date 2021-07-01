@@ -1,0 +1,13 @@
+.Webservers {
+  background-color: yellow;
+   color: black;
+}
+
+.Webservers .cards-wrapper .card {
+  background-color: rgb(13, 116, 0);
+}
+
+.Webservers .image-wrapper {
+    text-align: right;
+}
+ 

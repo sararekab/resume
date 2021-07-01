@@ -1,0 +1,48 @@
+{
+  "title": "Programming Skills",
+  "backgroundcolor1": "#18596d",
+  "backgroundcolor2": "#00000000",
+  "items": [
+   
+    {
+      "type": "card",
+      "content": {
+        "image": "images/languages/PHP.png",
+        "title": "PHP",
+        "score": 75
+      }
+    },
+    {
+      "type": "card",
+      "content": {
+        "image": "images/languages/JavaScript.png",
+        "title": "Java Script",
+        "score": 80
+      }
+    },
+    {
+      "type": "card",
+      "content": {
+        "image": "images/languages/SQL.png",
+        "title": "SQL",
+        "score": 70
+      }
+    },
+    {
+      "type": "card",
+      "content": {
+        "image": "images/languages/HTML.png",
+        "title": "HTML",
+        "score": 95
+      }
+    },
+    {
+      "type": "card",
+      "content": {
+        "image": "images/languages/CSS.png",
+        "title": "CSS",
+        "score": 60
+      }
+    }
+  ]
+}

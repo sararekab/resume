@@ -1,0 +1,24 @@
+{
+    "title": "Hello This is Sara Rekabtalaei",
+    "subtitle": "Full Stack Dev | Project Manager | Mechanical Engineer",
+    "imglink": "images/others/mypic.jpg",
+    "links": {
+        "github": {
+            "network": "github",
+            "links": "https://github.com/sararekab",
+            "bgcolor": "#ff5a01"
+        },
+        "linkedin": {
+            "network": "linkedin",
+            "links": "https://www.linkedin.com/in/srekabtalaei//"
+        },
+        "Mail": {
+            "network": "email",
+            "links": "mailto:s.rekabtalaei@gmail.com"
+        }
+    },
+    "icons": {
+        "down": "images/down.png",
+        "UP": "images/up.png"
+    }
+}

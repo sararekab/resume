@@ -1,0 +1,23 @@
+{
+    "title": "TeamWork",
+    "backgroundcolor1": "#e28f8f",
+    "backgroundcolor2": "#00000000",
+    "items": [
+        {
+            "type": "card",
+            "content": {
+                "image": "images/teamwork/Git.png",
+                "title": "Git",
+                "score": 95
+            }
+        },
+        {
+            "type": "card",
+            "content": {
+                "image": "images/teamwork/GitHub.png",
+                "title": "GitHub",
+                "score": 85
+            }
+        }
+    ]
+}

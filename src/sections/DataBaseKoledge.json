@@ -1,0 +1,32 @@
+{
+  "title": "Database SkillS",
+  "backgroundcolor1": "#585a5a",
+  "backgroundcolor2": "#00000000",
+  "items": [
+    {
+      "type": "card",
+      "content": {
+        "image": "images/databases/MySQL.png",
+        "title": "MySQL",
+        "score": 90
+      }
+    },
+    {
+      "type": "card",
+      "content": {
+        "image": "images/databases/MariaDB.png",
+        "title": "MariaDB",
+        "score": 85
+      }
+    },
+    {
+      "type": "card",
+      "content": {
+        "image": "images/databases/MongoDB.png",
+        "title": "MongoDB"
+        ,
+        "score": 65
+      }
+    }
+  ]
+}
