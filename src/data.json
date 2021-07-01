@@ -1,17 +1,23 @@
 {
-    "title": "Hello I'm Sara Rekab",
-    "subtitle": "Full Stack Dev | Open Sourse Enthsiat | Mechanic Engineer",
+    "title": "Hello I'm Sara Rekabtalaei",
+    "subtitle": "Full Stack Dev | Project Manager | Mechanical  Engineer",
     "links": {
         "github": "https://github.com/sararekab",
         "linkedin": "https://www.linkedin.com/in/srekabtalaei/"
 
     },
-    "sections": [{
+    "sections": [
+        {
             "title": "About",
             "items": [{
                 "type": "p",
-                "content": "When my dev senses sara rekabatalaei joon"
+                "content": "I love team working."
+            }],
+            "items": [{
+                "type": "p",
+                "content": "I have  more than 10 years experiences in engineering and management of team."
             }]
+            
         },
 
         {
@@ -19,7 +25,7 @@
             "items": [{
                 "type": "card",
                 "content": {
-                    "image": "/url",
+                    "image": "images/react.png",
                     "title": "React"
 
                 }
@@ -30,7 +36,7 @@
             "items": [{
                 "type": "card",
                 "content": {
-                    "image": "/url",
+                    "image": "images/javascript.png",
                     "title": "Javascript"
 
                 }
@@ -41,7 +47,7 @@
             "items": [{
                 "type": "card",
                 "content": {
-                    "image": "/url",
+                    "image": "images/html.png",
                     "title": "HTML"
 
                 }
@@ -52,7 +58,7 @@
             "items": [{
                 "type": "card",
                 "content": {
-                    "image": "/url",
+                    "image": "images/css.png",
                     "title": "CSS"
 
                 }
