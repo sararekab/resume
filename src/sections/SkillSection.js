@@ -14,11 +14,11 @@ class AboutSection extends Component {
 
           <h3>{data.sections[1].title}</h3>
           <div className="cards-wrapper">
-            {data.sections[1].items.map(eachSkill => {
+            {data.sections[1].items.map((eachSkill, index) => {
               eachSkill.content['backgroundcolor1'] = data.sections[1].backgroundcolor1
               eachSkill.content['backgroundcolor2'] = data.sections[1].backgroundcolor2
               return (
-                <SkillCard skill={eachSkill} />
+                <SkillCard skill={eachSkill} key={index+'sdsm'} />
               );
             })}
           </div>

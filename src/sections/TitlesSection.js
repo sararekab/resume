@@ -45,7 +45,7 @@ class TitlesSection extends Component {
           <div className="icons-wrapper">
             {Object.keys(titleSection.links).map(key => {
               return (
-                <div className="icon">
+                <div className="icon" key={key}>
                   <SocialIcon    network={titleSection.links[key].network} url={titleSection.links[key].links}  bgColor="#7fb6ee" />
                 </div>
               );

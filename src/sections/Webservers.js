@@ -4,41 +4,42 @@ import skilllanguagessss from "./Webservers.json";
 import data from "../data.json";
 import SkillCard from '../components/SkillCard';
 import DownIcon from "../components/DownIcon";
-import {  Link  } from "react-scroll";
+import { Link } from "react-scroll";
 import "./Webservers.css";
 
 class Webservers extends Component {
   render() {
     return (
-      <div name="portfolioscrool">      <Fullpage className="Webservers">
-       
-        <h3  style={{color: "balck"}} className="Webservers" >{skilllanguagessss.title}</h3>
-        <div className="cards-wrapper">
-          {skilllanguagessss.items.map(eachSkill => {
-            eachSkill.content['backgroundcolor1']  = skilllanguagessss.backgroundcolor1
-            eachSkill.content['backgroundcolor2'] = skilllanguagessss.backgroundcolor2
-            return (
-              <SkillCard className="Webserverscard" skill={eachSkill}/>
-            );
-          })}
-        </div>
-      </Fullpage>
-      
-      <Link
+      <div name="portfolioscrool">
+        <Fullpage className="Webservers">
+
+          <h3 style={{ color: "balck" }} className="Webservers" >{skilllanguagessss.title}</h3>
+          <div className="cards-wrapper">
+            {skilllanguagessss.items.map((eachSkill, index) => {
+              eachSkill.content['backgroundcolor1'] = skilllanguagessss.backgroundcolor1
+              eachSkill.content['backgroundcolor2'] = skilllanguagessss.backgroundcolor2
+              return (
+                <SkillCard className="Webserverscard" key={index+'webserver'} skill={eachSkill} />
+              );
+            })}
+          </div>
+        </Fullpage>
+
+        <Link
           activeClass="active"
           to="maincontentent"
           spy={true}
           smooth={true}
           offset={0}
           duration={800}
-          delay={30} 
+          delay={30}
         >
           <DownIcon
             icon={data.icons.UP}
-            onClick={() => console.log( )}
+            onClick={() => console.log()}
           />
         </Link>
-       
+
       </div>
     );
   }

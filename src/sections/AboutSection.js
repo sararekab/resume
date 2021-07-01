@@ -11,8 +11,8 @@ class AboutSection extends Component {
       <Fullpage className="second">
         <h3>{data.sections[0].title}</h3>
         <div >
-          {data.sections[0].items.map(hj =>  {
-            return <p> {hj.content} </p> 
+          {data.sections[0].items.map((hj, index) =>  {
+            return <p key={index+'about'}> {hj.content} </p> 
           })}
         </div>
        

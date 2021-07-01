@@ -13,8 +13,8 @@ class FirstBox extends Component {
       <div className="FirstBox">
        
         <div className="rightplace">
-          {data.keyyss.map(eachKeyss => {
-            return <Keyss Keyss={eachKeyss} />;
+          {data.keyyss.map((eachKeyss, index) => {
+            return <Keyss Keyss={eachKeyss} key={index} />;
           })}
         </div>
          
